@@ -8,22 +8,22 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-color: MistyRose;
+    background-color: white;
 }
 
 .box {
-    background-color: seashell;
-    color: RosyBrown;
-    width: 300px;
-    height: 50px;
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 100px;
     padding: 10px;
     margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
-    border: 20px;
-    border-color: palevioletred;
+    border-radius: 20px;
+    border: 50px;
+    border-color: black;
 }
 
 #element1 {
