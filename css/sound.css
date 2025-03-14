@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+
+* {
     box-sizing: border-box;
 }
 
@@ -9,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0px;
+    font-family: 'Playfair Display', sans-serif;
 
 }
 
