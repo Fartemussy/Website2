@@ -1,0 +1,35 @@
+
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 220, 255);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+
+}
+
+.btn {
+    background-color: #a8bb49 ;
+    height: 7vh;
+    margin: 10px;
+    border-radius: 50px;
+    flex: 1;
+    cursor: pointer;
+    color: white ;
+    font-size: 20px;
+    padding: 1px 30px;
+    border-color: #ffcd30;
+
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn:focus {
+    outline: none;
+}
