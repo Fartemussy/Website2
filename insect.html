@@ -3,23 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catch The Insect</title>
-    <link rel="stylesheet" href="css.insect.css">
+    <title>get the bugs!</title>
 </head>
 <body>
     <div class="screen">
-        <h1>Catch The Insect</h1>
-        <button class="btn" id="start-btn">Play Game</button>
+        <h1>bugs!!!!</h1>
+        <link rel="stylesheet" href="insect.css">
+        <button class="btn" id="start-btn">
+            Play Game
+        </button>
+    </div>
+    <div class="screen">
+        <h1> What is your "favorite" insect?</h1>
+        <ul class="insects-list">
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Fly</p>
+                    <img src="images/fly.png" alt="fly">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Mosquito</p>
+                    <img src="images/mosquito.png" alt="Mosquito">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>rat</p>
+                    <img src="images/rat.jpg" alt="rat">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>blue lobster</p>
+                    <img src="images/bluelobster.jpg" alt="Blue Lobster">
+                </button>
+            </li>
+        </ul>
     </div>
 
-    <div class="screen">
-        <h1>What is your "favorite" insect?</h1>
-        <u1 class="insects-list">
-            <li>
-                <button class="choose-insect"></button>
-            </li>
-        </u1>
+    <div class="screen game-container" id="game-container">
+        <h3 id="time">Time: 00:00</h3>
+        <h3 id="score" class="score">Score: 0</h3>
+        <h5 class="message" id="message">
+            Are you annoyed yet? <br>
+            You are playing an impossible game
+        </h5>
     </div>
+    <script src="insect.js"></script>
 </body>
-<script src="js/insect.js"></script>
 </html>
