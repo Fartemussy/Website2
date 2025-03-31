@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Press Start 2P', sans-serif;
-    background-color: rgb(10,10,255);
+    background-color: rgb(200,10,25);
     color: white
     height: 100vh;
     text-align: center
@@ -55,7 +55,7 @@ h1 {
 
 .choose-insect-btn {
     background-color: transparent;
-    border: 2px solid #ffffff;
+    border: zpx solid #ffffff;
     color: white;
     cursor: pointer;
     font-family: inherit;
@@ -119,8 +119,8 @@ h1 {
     position: absolute;
 }
 .insect img{
-    width: 10px;
-    height: 10px;
+    width: 100px;
+    height: 100px;
 }
 .insect.caught {
     transform: scale(0);
