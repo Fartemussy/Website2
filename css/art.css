@@ -25,6 +25,40 @@ body {
     z-index: 0;
 }
 
+
+.sun-reflect {
+    height: 150px;
+    width: 200px;
+    background-color: #e9c46a;
+    border-radius: 50%;
+    position: absolute;
+    top: 465px;
+    right: 350px;
+    z-index: 1;
+}
+
+.water {
+    position: absolute;
+    top: 450px;
+    ight: 30px;
+    height: 600px;
+    width: 2000px;
+    background-color: #005f73;
+    z-index: -5;
+  }
+
+
+.sun-reflect-back {
+    height: 190px;
+    width: 240px;
+    background-color: #f4a261;
+    border-radius: 50%;
+    position: absolute;
+    top: 450px;
+    right: 330px;
+    z-index: 0;
+}
+
 .mountain-one {
     width: 0;
     height: 0;
@@ -34,19 +68,19 @@ body {
     right: 540px;
     position: absolute;
     z-index: 5;
-    border-bottom: 300px solid #344e41;
+    border-bottom: 300px solid #656d4a;
 }
 
 .mountain-two {
     width: 0;
     height: 0;
-    border-left: 250px solid transparent;
+    border-left: 500px solid transparent;
     border-right: 500px solid transparent;
-    top: 190px;
-    right: 500px;
+    top: 210px;
+    right: 700px;
     position: absolute;
-    z-index: 4;
-    border-bottom: 300px solid #3a5a40;
+    z-index: 5;
+    border-bottom: 300px solid #414833;
 }
 
 .mountain-three {
@@ -58,17 +92,29 @@ body {
     right: 300px;
     position: absolute;
     z-index: 4;
-    border-bottom: 300px solid #3a5a40;
+    border-bottom: 300px solid #a4ac86;
 }
 
-.mountain-four {
+.mountain-five {
+    width: 0;
+    height: 0;
+    border-left: 300px solid transparent;
+    border-right: 700px solid transparent;
+    top: 220px;
+    right: 900px;
+    position: absolute;
+    z-index: 5;
+    border-bottom: 300px solid #333d29;
+}
+
+.mountain-six {
     width: 0;
     height: 0;
     border-left: 750px solid transparent;
     border-right: 50px solid transparent;
-    top: 190px;
+    top: 180px;
     right: -100px;
     position: absolute;
     z-index: 1;
-    border-bottom: 300px solid #588157;
+    border-bottom: 300px solid #c2c5aa;
 }
