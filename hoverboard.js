@@ -3,8 +3,9 @@ const colors = ["#e74c3c", "#8e44ad", "blue", "#e67e22"]
 const SQUARES = 500
 
 for (let i = 0; i < SQUARES; i = i + 1){
-    cconst square = document.createElement('div')
+    const square = document.createElement('div')
     square.classList.add('square')
+    container.appendChild(square)
     square.addEventListener('mouseover', () => setColor(square))
     square.addEventListener('mouseout', () => removeColor(square))
     container.appendChild(square)
